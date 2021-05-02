@@ -1,0 +1,94 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.navbar{
+    background-color:  #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    text-size-adjust: auto;
+    font-size: 25px;
+
+}
+
+.nav-link{color: #1a1a1a ; text-size-adjust: ;}
+.nav-link:hover{color: #1a1a1a;}
+
+.logo-brand{
+    min-width: 50px;
+    max-width: 60px;
+
+}
+
+#hero {
+    background-image: url('/img/hero.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+
+#hero p{
+    color: #ffffff;
+    font-size: 20px;
+}
+#hero .numero{
+    font-size: 40px;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.container-1{
+    padding: 20px;
+}
+
+.carousel-item img  {
+height: 100%;
+width: 100%;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.card p {
+    width: 100%;
+    height: 300px;
+    -moz-text-size-adjust: auto ;
+}
+
+section {
+    padding: 120px 0;
+}
+
+.bg-dark{
+    background-color: #df8a44 !important;
+}
+
+
+@media (max-width: 575.98px) { 
+    h1{ font-size: 40px; line-height: normal;}
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{ font-size: 40px; line-height: normal;}
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+
+@media (min-width: 1200px) { ... }
